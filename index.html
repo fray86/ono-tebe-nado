@@ -5,45 +5,42 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
   <link rel="stylesheet" href="styles/global.css" />
   <link rel="stylesheet" href="styles/style.css" />
-  <link rel="stylesheet" href="fonts/fonts.css" />
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
 </head>
 <body>
   <header id="header-section">
-    <div class="container">
       <div class="header">
         <nav class="nav-main">
           <ul class="nav-main-list">
             <li class="nav-main-item">
-              <a class="nav-main-link nav-main-link-one" href="#">главная</a>
+              <a class="nav-main-link link_no-underline" href="#">главная</a>
             </li>
             <li>
-              <a class="nav-main-link nav-main-link-two" href="#">посмотреть лоты</a>
+              <a class="nav-main-link" href="#">посмотреть лоты</a>
             </li>
             <li>
-              <a class="nav-main-link nav-main-link-two" href="#">об аукционе</a>
+              <a class="nav-main-link" href="#">об аукционе</a>
             </li>
           </ul>
         </nav>
-        <div class="header-logo">
+        <a class="header-logo" href="#">
           <img src="images/logo-black.svg" alt="оно тебе надо" />
-        </div>
-        <div class="address">
+        </a>
+        <address class="address">
           <ul>
-            <li class="address-one">
-              <a>+9 999 555 5555</a>
+            <li class="address-link">
+              <a href="#">+9 999 555 5555</a>
             </li>
-            <li class="address-one">
-              <a>info@sobaka.ge</a>
+            <li class="address-link">
+              <a href="#">info@sobaka.ge</a>
             </li>
-            <li class="address-two">
-              <a>наб. Принсенграхт 263-265, <br />
-                Амстердам</a>
-            </li>
+            <li class="address-place">
+              наб. Принсенграхт 263-265, Амстердам
           </ul>
-        </div>
+        </address>
       </div>
     </div>
   </header>
@@ -52,12 +49,12 @@
       <div class="overlay"></div>
       <h1 class="cover-tittle">
         <span class="aligned-text">О<span class="letter-spacing-extended">НО </span></span>
-        <span class="aligned-text_center">ТЕ<span class="letter-spacing-extended">БЕ</span></span>
-        <span class="aligned-text_right"><span class="letter-spacing-extended">Н</span>АД<span
+        <span class="aligned-text aligned-text_center">ТЕ<span class="letter-spacing-extended">БЕ</span></span>
+        <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">Н</span>АД<span
             class=no-letter-spacing>О</span></span></span>
       </h1>
       <div class="cover_description">
-        <span class="cover_description-text">Аукцион вещей, в <span class="nikto">которые никто не верил</span></span>
+        <h4 class="cover_description-text">Аукцион вещей, в <span class="cover_word_spacing">которые никто не верил</span></h4>
         <button class="bet-button">Сделать ставку</button>
       </div>
     </section>
@@ -66,7 +63,7 @@
       <ul class="lots_card-list">
         <li class="card">
           <a href="#" class="card-link">
-            <article class="card_type_film">
+            <article class="card card_type_film">
               <div class="overlay"></div>
               <h3 class="card_title">Фильм режиссёра, который бросил киношколу</h3>
               <p class="card_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
@@ -76,7 +73,7 @@
         </li>
         <li class="card">
           <a href="#" class="card-link">
-            <article class="card_type_book">
+            <article class="card card_type_book">
               <div class="overlay"></div>
               <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
               <p class="card_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
@@ -88,7 +85,7 @@
         </li>
         <li class="card">
           <a href="#" class="card-link">
-            <article class="card_type_image">
+            <article class="card card_type_image">
               <div class="overlay"></div>
               <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               <p class="card_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
@@ -98,7 +95,7 @@
           </a>
         </li>
       </ul>
-      <div class="lots__look-more-link"><a href="#" class="more-link">посмотреть больше</a></div>
+      <a href="#" class="more-link">посмотреть больше</a>
     </section>
     <section class="about">
       <div class="logo_column">
@@ -107,9 +104,7 @@
         </div>
       </div>
       <div class="about_column">
-        <div class="about_title">
-          <h4>Об аукционе</h4>
-        </div>
+          <h3 class="about_title">Об аукционе</h3>
         <div class="about_text">
           <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
             должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую
@@ -124,20 +119,18 @@
   </main>
   <footer>
     <section class="footer">
-      <div class="address">
+      <address class="address">
         <ul>
-          <li class="address-one">
-            <a>+9 999 555 5555</a>
+          <li class="address-link">
+            <a href="#">+9 999 555 5555</a>
           </li>
-          <li class="address-one">
-            <a>info@sobaka.ge</a>
+          <li class="address-link">
+            <a href="#">info@sobaka.ge</a>
           </li>
-          <li class="address-two">
-            <a>наб. Принсенграхт 263-265, <br/>
-              Амстердам</a>
-          </li>
+          <li class="address-place">
+            наб. Принсенграхт 263-265, Амстердам
         </ul>
-      </div>
+      </address>
       <nav class="footer_menu">
         <ul class="footer_menu_list">
           <a href="#" alt="main">
@@ -153,16 +146,17 @@
       <ul class="footer_social_list">
         <li class="footer_social_list_item">
           <a href="#" alt="youtube">
-            <img class="link_youtube img_social" src="/images/yt.svg">
+            <img class="img_social" src="/images/yt.svg">
           </a>
         </li>
         <li class="footer_social_list_item">
           <a href="#" alt="vk">
-            <img class="link_vk img_social" src="/images/vk.svg">
+            <img class="img_social" src="/images/vk.svg">
           </a>
         </li>
         <li class="footer_social_list_item">
-          <a href="#" alt="pinterest"><img class="link_pt img_social" src="/images/pinterest.svg">
+          <a href="#" alt="pinterest">
+            <img class="img_social" src="/images/pinterest.svg">
           </a>
         </li>
       </ul>
