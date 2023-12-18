@@ -16,7 +16,6 @@
   gap: 32px;
   color: #000;
   list-style: circle;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -25,7 +24,7 @@
   list-style-type: none;
 }
 
-.link_no-underline {
+.link_active {
   text-decoration: none;
 }
 
@@ -35,13 +34,13 @@
 
 .address {
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   max-width: 240px;
   justify-self: end;
   align-self: center;
+  line-height: 24.3px;
 }
 
 .address-link {
@@ -54,7 +53,7 @@
 }
 
 .cover {
-  background-image: url(../images/cover.jpg);
+  background-image: url(/images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,7 +91,6 @@
 
 .aligned-text {
   color: #fff;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -129,7 +127,6 @@
 .cover_description-text {
   color: #fff;
   text-align: center;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -143,7 +140,6 @@
   background-color: transparent;
   color: #fff;
   text-align: center;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -165,7 +161,6 @@
 
 .lots_heading {
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -194,23 +189,22 @@
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: url(/images/card-lot-01.jpg);
   padding: 50px 40px 50px 40px;
 }
 
 .card_type_book {
-  background-image: url(../images/card-lot-02.jpg);
+  background-image: url(/images/card-lot-02.jpg);
   padding: 50px 40px 50px 40px;
 }
 
 .card_type_image {
-  background-image: url(../images/card-lot-03.jpg);
+  background-image: url(/images/card-lot-03.jpg);
   padding: 50px 40px 50px 40px;
 }
 
 .card_title {
   color: #fff;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -223,7 +217,6 @@
 
 .card_text {
   color: #fff;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -239,18 +232,17 @@
 
 .more-link {
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-decoration: underline;
   padding: 30px 0px 0px 40px;
-  position: absolute;
+  display: flex;
 }
 
 .about {
-  padding: 235px 50px 0px 50px;
+  padding: 180px 50px 0px 50px;
   display: flex;
   gap: 20px;
 }
@@ -287,7 +279,6 @@
 
 .about_title {
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -297,7 +288,6 @@
 
 .about_text {
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -326,6 +316,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .img_social {
